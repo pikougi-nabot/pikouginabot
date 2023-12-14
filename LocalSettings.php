@@ -154,5 +154,47 @@ require_once "$IP/extensions/Wikibase/client/ExampleSettings.php";
 
 wfLoadExtension( 'WikibaseLexeme' );
 
-// line 9482 = 'default' => false,
+// from /includes/MainConfigSchema.php
+
+$wgMaxUploadSize = 1024 * 1024 * 1024;
+$wgFileExtensions = [ 'png', 'gif', 'jpg', 'jpeg', 'webp', 'pdf', 'txt', 'xml' ];
+$wgStrictFileExtensions = false;
+$wgLocaltimezone = 'UTC';
+$wgCapitalLinks = false;
+$wgNamespacesWithSubpages[NS_MAIN] = true;
+$wgRawHtml = true;
+$wgExternalLinkTarget = "_blank";
+$wgRestrictDisplayTitle = false;
+$wgDefaultUserOptions['date'] = 'ISO 8601';
+$wgDefaultUserOptions['gender'] = 'male';
+$wgDefaultUserOptions['numberheadings'] = 1;
+$wgDefaultUserOptions['rcdays'] = 360;
+$wgDefaultUserOptions['rclimit'] = 1000;
+$wgDefaultUserOptions['showhiddencats'] = 1;
+$wgGroupPermissions['*']['interwiki'] = true;
+$wgGroupsAddToSelf = [ '*' => true ];
 $wgDeprecationReleaseLimit = '1.0';
+$wgAdvancedSearchHighlighting = true;
+$wgRCMaxAge = 360 * 24 * 3600;
+$wgExportAllowAll = true;
+$wgCategoryCollation = 'identity';
+
+// from /extensions/Wikibase/repo/config/Wikibase.default.php
+// mediawiki.org/wiki/Wikibase/Installation/Advanced_configuration
+
+$wgWBRepoSettings['statementSections'] = [
+  	'item' => [
+    		'statements' => null,
+    		'identifiers' => [
+      			'type' => 'dataType',
+      			'dataTypes' => [ 'external-id' ],
+    		],
+  	],
+];
+$wgWBRepoSettings['string-limits'] = [
+		'multilang' => [
+    		'length' => 1000,
+  	],
+];
+// $wgWBRepoSettings['formatterUrlProperty'] = 'P1088136017';
+$wgWBRepoSettings['allowEntityImport'] = true;
