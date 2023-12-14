@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Babanwalia",
+			"Bgo eiu",
+			"Jagseer S Sidhu",
+			"Satdeep gill",
+			"Sony dandiwal",
+			"Tow"
+		]
+	},
+	"tooltip-t-wikibase": "ਡਾਟਾ ਭੰਡਾਰ ਦੀ ਆਈਟਮ ਨਾਲ ਲਿੰਕ ਕਰੋ",
+	"wikibase-comment-update": "{{WBREPONAME}} ਆਈਟਮ ਬਦਲੀ ਗਈ",
+	"wikibase-dataitem": "{{WBREPONAME}} ਆਈਟਮ",
+	"wikibase-editlinks": "ਜੋੜ ਸੋਧੋ",
+	"wikibase-editlinkstitle": "ਅੰਤਰਭਾਸ਼ਾਈ ਜੋੜ ਸੋਧੋ",
+	"wikibase-linkitem-addlinks": "ਲਿੰਕ ਸ਼ਾਮਲ ਕਰੋ",
+	"wikibase-linkitem-title": "ਸਾਫ਼ੇ ਨਾਲ ਜੋੜੋ",
+	"wikibase-linkitem-linkpage": "ਸਾਫ਼ੇ ਨਾਲ ਜੋੜੋ",
+	"wikibase-linkitem-selectlink": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਟ ਅਤੇ ਪੰਨਾ ਚੁਣੋ ਜਿਸਨੂੰ ਤੁਸੀਂ ਇਸ ਪੰਨੇ ਨਾਲ ਲਿੰਕ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ।",
+	"wikibase-linkitem-input-site": "ਭਾਸ਼ਾ:",
+	"wikibase-linkitem-input-page": "ਸਫ਼ਾ:",
+	"wikibase-rc-hide-wikidata": "$1 {{WBREPONAME}}",
+	"wikibase-rc-hide-wikidata-hide": "ਲੁਕਾਉ",
+	"wikibase-rc-hide-wikidata-show": "ਵਿਖਾਓ",
+	"wikibase-rc-wikibase-edit-letter": "ਡ",
+	"wikibase-rc-wikibase-edit-title": "{{WBREPONAME}} ਸੋਧੋ",
+	"wikibase-otherprojects": "ਹੋਰ ਪ੍ਰਾਜੈਕਟਾਂ ਵਿੱਚ"
+}

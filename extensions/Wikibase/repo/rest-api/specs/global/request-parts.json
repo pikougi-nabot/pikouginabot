@@ -1,0 +1,124 @@
+{
+	"StatementRequest": {
+		"allOf": [
+			{
+				"type": "object",
+				"properties": {
+					"statement": {
+						"allOf": [
+							{ "$ref": "./schemas.json#/Statement" },
+							{ "$ref": "#/StatementRequestRequired" }
+						]
+					}
+				},
+				"required": [ "statement" ]
+			},
+			{ "$ref": "./request-parts.json#/MediawikiEdit" }
+		]
+	},
+	"StatementPatchRequest": {
+		"allOf": [
+			{
+				"type": "object",
+				"properties": {
+					"patch": {
+						"description": "A JSON Patch document as defined by RFC 6902",
+						"type": "array",
+						"items": {
+							"properties": {
+								"op": {
+									"description": "The operation to perform",
+									"type": "string",
+									"enum": [
+										"add",
+										"copy",
+										"move",
+										"remove",
+										"replace",
+										"test"
+									]
+								},
+								"path": {
+									"description": "A JSON Pointer for the property to manipulate",
+									"type": "string",
+									"example": "/mainsnak/datavalue/value"
+								},
+								"value": {
+									"description": "The value to be used within the operation",
+									"example": "patched value"
+								}
+							},
+							"required": [
+								"op",
+								"path"
+							]
+						}
+					}
+				}
+			},
+			{ "$ref": "./request-parts.json#/MediawikiEdit" }
+		]
+	},
+	"MediawikiEdit": {
+		"type": "object",
+		"properties": {
+			"tags": {
+				"type": "array",
+				"items": { "type": "string" },
+				"default": [ ],
+				"example": [ "mobile edit", "external tool edit" ]
+			},
+			"bot": {
+				"type": "boolean",
+				"default": false
+			},
+			"comment": {
+				"type": "string",
+				"example": "API edit fixing the modelling as discussed in ..."
+			}
+		}
+	},
+	"StatementRequestRequired": {
+		"allOf": [
+			{ "$ref": "#/PropertyValuePairRequestRequired" },
+			{
+				"properties": {
+					"qualifiers": {
+						"items": {
+							"$ref": "#/QualifierRequestRequired"
+						}
+					},
+					"references": {
+						"items": {
+							"$ref": "#/ReferenceRequestRequired"
+						}
+					}
+				}
+			}
+		]
+	},
+	"QualifierRequestRequired": {
+		"$ref": "#/PropertyValuePairRequestRequired"
+	},
+	"ReferenceRequestRequired": {
+		"required": [ "parts" ],
+		"properties": {
+			"parts": {
+				"items": {
+					"$ref": "#/PropertyValuePairRequestRequired"
+				}
+			}
+		}
+	},
+	"PropertyValuePairRequestRequired": {
+		"required": [ "property", "value" ],
+		"properties": {
+			"property": {
+				"required": [ "id" ]
+			},
+			"value": {
+				"required": [ "type" ]
+			}
+		}
+	}
+}

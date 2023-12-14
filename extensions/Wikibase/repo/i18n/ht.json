@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80",
+			"Bfpage",
+			"Kitanago",
+			"Tisave"
+		]
+	},
+	"wikibase-edit": "modifye",
+	"wikibase-add": "ajoute",
+	"wikibase-label-empty": "Pa gen etikèt ki defini",
+	"wikibase-description-empty": "Pa gen okenn deskripsyon ki defini",
+	"wikibase-sitelinks-special": "Lòt sit",
+	"wikibase-statementview-rank-normal": "Ran nòmal"
+}

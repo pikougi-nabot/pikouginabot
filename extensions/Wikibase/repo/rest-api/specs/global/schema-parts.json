@@ -1,0 +1,56 @@
+{
+	"Sitelinks": {
+		"type": "object",
+		"additionalProperties": {
+			"$ref": "./schemas.json#/Sitelink"
+		},
+		"example": {
+			"afwiki": {
+				"title": "Douglas Adams",
+				"badges": [ "Q17437798" ],
+				"url": "https://af.wikipedia.org/wiki/Douglas_Adams"
+			},
+			"arwiki": {
+				"title": "دوغلاس آدمز",
+				"badges": [ ],
+				"url": "https://ar.wikipedia.org/wiki/%D8%AF%D9%88%D8%BA%D9%84%D8%A7%D8%B3_%D8%A2%D8%AF%D9%85%D8%B2"
+			}
+		}
+	},
+	"PropertyValuePair": {
+		"type": "object",
+		"properties": {
+			"property": {
+				"type": "object",
+				"properties": {
+					"id": {
+						"description": "The ID of the Property",
+						"type": "string",
+						"example": "P92"
+					},
+					"data-type": {
+						"description": "The data type of the Property",
+						"type": "string",
+						"readOnly": true,
+						"nullable": true,
+						"example": "string"
+					}
+				}
+			},
+			"value": {
+				"type": "object",
+				"properties": {
+					"content": {
+						"description": "The value, if type == \"value\", otherwise omitted",
+						"example": "I am a goat"
+					},
+					"type": {
+						"description": "The value type",
+						"type": "string",
+						"enum": [ "value", "somevalue", "novalue" ]
+					}
+				}
+			}
+		}
+	}
+}

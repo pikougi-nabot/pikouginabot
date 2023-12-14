@@ -1,0 +1,19 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tofeiku"
+		]
+	},
+	"tooltip-t-wikibase": "Sambungan ta' keserentaan pesimponon data diam sambungan",
+	"wikibase-dataitem": "Keserentaan {{WBREPONAME}}",
+	"wikibase-editlinks": "Niuba sambungan",
+	"wikibase-editlinkstitle": "Niuba sambungan ling lain",
+	"wikibase-linkitem-addlinks": "Namba sambungan",
+	"wikibase-linkitem-title": "Nepeng laman",
+	"wikibase-linkitem-linkpage": "Nepeng laman",
+	"wikibase-linkitem-input-site": "Ling:",
+	"wikibase-linkitem-input-page": "Laman:",
+	"wikibase-rc-hide-wikidata-hide": "Tenapuk",
+	"wikibase-rc-hide-wikidata-show": "Penekitoon",
+	"wikibase-otherprojects": "Diam prujik sediri"
+}

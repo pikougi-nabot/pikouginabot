@@ -1,0 +1,29 @@
+{
+	"@metadata": {
+		"authors": [
+			"Htawmonzel",
+			"咽頭べさ"
+		]
+	},
+	"tooltip-t-wikibase": "လေန် သွက်ဂွံ ဆက်စၠောအ် ဂအုမ် ဒကုတ် တင်ဂၞင်ဂမၠိုင်",
+	"wikibase-comment-update": "{{WBREPONAME}} မွဲဒကုတ်မွဲဒကဴ ပြံင်လှာဲလဝ်",
+	"wikibase-comment-multi": "$1 {{PLURAL:$1|ပွမပြံင်လှာဲ|ပွမပြံင်လှာဲဂမၠိုင်}}",
+	"wikibase-dataitem": "{{WBREPONAME}} item",
+	"wikibase-editlinks": "ပလေဝ် လေန်ဂမၠိုင်",
+	"wikibase-editlinkstitle": "ပလေဝ် လေန် အရေဝ်ဘာသာသအာင်",
+	"wikibase-addlinkstitle": "မထပ်ဗပေၚ်ပနှဴစုတ်လေန်အရေဝ်ဘာသာ",
+	"wikibase-linkitem-addlinks": "စုတ် လေန်ဂမၠိုင်",
+	"wikibase-linkitem-title": "လေန်မနွံကဵုမုလိက်",
+	"wikibase-linkitem-linkpage": "လေန်မနွံကဵုမုလိက်",
+	"wikibase-linkitem-selectlink": "သ္ပဂုဏ်တုဲရုဲကေတ်ဒၞာဲသိုၚ်လဝ်ကဵုမုက်လိက်ပၟိက်စိုတ်ဇကုဆက်အာလေန်မဆေၚ်စပ်ကဵုမုက်လိက်ဏအ်။",
+	"wikibase-linkitem-input-site": "အရေဝ်ဘာသာ:",
+	"wikibase-linkitem-input-page": "မုက်လိက်:",
+	"wikibase-rc-hide-wikidata": "$1 {{WBREPONAME}}",
+	"wikibase-rc-hide-wikidata-hide": "ဗဒန်",
+	"wikibase-rc-hide-wikidata-show": "ထ္ၜး",
+	"wikibase-rc-wikibase-edit-letter": "ပလေဝ်",
+	"wikibase-rc-wikibase-edit-title": "{{WBREPONAME}} ပလေဝ်ဒါန်",
+	"wikibase-otherprojects": "နကဵု ပရဝ်ဂျေတ် တၞဟ်",
+	"wikibase-client-data-bridge-error-reload-bridge": "ကလေၚ်ကော်ကေတ်",
+	"wikibase-client-data-bridge-error-reload-page": "ကလေၚ်ကော်ကေတ်မုက်လိက်"
+}
